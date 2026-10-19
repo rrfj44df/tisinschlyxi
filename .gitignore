@@ -14,3 +14,9 @@ TMessagesProj_AppHockeyApp/afat/
 TMessagesProj_AppStandalone/afat/
 TMessagesProj_AppHuawei/afat/
 TMessagesProj/jni/ffmpeg/build_android
+
+# usa8: signing material never goes into git
+*.jks
+!TMessagesProj/config/*.keystore
+keys/
+usa8-keystore.txt

@@ -21,6 +21,9 @@
 //#define DEBUG_VERSION
 #define PFS_ENABLED 1
 #define DEFAULT_DATACENTER_ID INT_MAX
+// usa8: local MTProto server (all datacenters)
+#define USA8_SERVER_ADDRESS "192.168.1.108"
+#define USA8_SERVER_PORT 42000
 #define DC_UPDATE_TIME 60 * 60
 #define TEMP_AUTH_KEY_EXPIRE_TIME 24 * 60 * 60
 #define PROXY_CONNECTIONS_COUNT 4
